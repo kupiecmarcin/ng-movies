@@ -23,6 +23,7 @@ Comment - { author, text, addedAt, movie }
 
 GET
 
+```shell
 curl -i localhost:5000/movies   - list all movies
 curl -i localhost:5000/comments - list all comments
 
@@ -30,10 +31,14 @@ curl -i localhost:5000/movies/<movie_id>        - get movie with id
 curl -i localhost:5000/comments/<comment_id>    - get comment with id
 
 curl -i localhost:5000/movies/<movie_id>/comments   - get all comments for specified movie
+```
 
 POST
 
-curl -i localhost:5000/movies -H 'Content-Type: application/json' -d '{"title": "Die Hard"}' 
+```shell
+curl -i localhost:5000/movies -H 'Content-Type: application/json' -d '{"title": "Die Hard"}'
+
 curl -i localhost:5000/comments -H 'Content-Type: application/json' -d '{"author": "Bruce Willis", "movie": "xxx", "text": "bla bla"}' 
 
 returns { id, addedAt }
+```
