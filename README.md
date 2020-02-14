@@ -6,15 +6,24 @@
 
 These instructions will show you how to run app.
 
+
 ### Start
 
+#### Local
+
 ```shell
-    $ git clone 
+    $ git clone git@github.com:kupiecmarcin/ng-movies.git
     $ cd movies
     $ docker-compose up
 ```
 
-### Try
+#### Heroku
+
+```shell
+https://ng-movies-demo.herokuapp.com/
+```
+
+### Usage
 
 Db is initialized with dummy data. App is reachable via 5000 port.
 
