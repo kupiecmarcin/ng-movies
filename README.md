@@ -20,7 +20,7 @@ These instructions will show you how to run app.
 #### Public - aws
 
 ```shell
-http://ec2-35-156-135-193.eu-central-1.compute.amazonaws.com/
+http://ec2-18-185-141-51.eu-central-1.compute.amazonaws.com/
 ```
 
 ### Usage
